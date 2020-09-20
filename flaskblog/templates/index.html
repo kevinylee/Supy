@@ -8,7 +8,7 @@
     </p>
     {% if current_user.is_authenticated %}
       <p class="lead">
-        <a href="{{ url_for('share')}}" class="btn btn-lg btn-secondary">Share my story</a>
+        <a href="{{ url_for('posts.share')}}" class="btn btn-lg btn-secondary">Share my story</a>
       </p>
     {% endif %}
   </main>
